@@ -7,8 +7,8 @@ class StatisticsCollector:
     def show_statistics(self):
         pass
 
-    def add_consumed_product(self):
+    def add_consumed_product(self, products):
         pass
 
-    def add_bought_products(self):
+    def add_bought_products(self, products):
         pass

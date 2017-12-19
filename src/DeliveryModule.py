@@ -1,7 +1,7 @@
 from src.ProductList import ProductList
 
 
-class MovableModule:
+class DeliveryModule:
     def __init__(self):
         self._loadedFood = ProductList()
         self._owner = None
@@ -10,7 +10,7 @@ class MovableModule:
     def move_to_owner(self):
         pass
 
-    def deliver_food(self):
+    def deliver_food(self, products):
         pass
 
     def give_food(self, food):
